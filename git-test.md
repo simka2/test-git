@@ -7,20 +7,23 @@
 
 * **git status** – получить информацию от git о его текущем состоянии
 
-* **git add filename** - добавить файл *<font color="red">filename</font>* к отслеживанию гитом
+* **git add filename** - добавить файл *<font color="green">filename</font>* к отслеживанию гитом
 
-* **git commit -m “message”** – создание коммита и добавление к нему комментария *<font color="red">message</font>*
+* **git commit -m “message”** – создание коммита и добавление к нему комментария *<font color="green">message</font>*
 
 * **git log** – вывод на экран истории всех коммитов с их хеш-кодами
 
-* **git checkout number** – переход от одного коммита к другому c хэшем *<font color="red">
+* **git checkout number** – переход от одного коммита к другому c хэшем *<font color="green">
 number</font>* (вводить можно как хэш целиком, так и хотябы первые 4 символа)
 
-* **git checkout main** – вернуться к актуальному состоянию и продолжить работу (<font color="red">main</font> - название ветки)
+* **git checkout main** – вернуться к актуальному состоянию и продолжить работу (<font color="green">main</font> - название ветки)
 * **git diff** – увидеть разницу между текущим файлом и закоммиченным файлом
 
-* **git commit -am "commit message** - эта комбинация параметров создает коммит всех проиндексированных изменений и добавляет к коммиту подставленный комментарий. (*<font color="red">Почти тоже самое, что git add namefile + git commit -m "commit message"</font>*)
+* **git commit -am "commit message** - эта комбинация параметров создает коммит всех проиндексированных изменений и добавляет к коммиту подставленный комментарий. (*Почти тоже самое, что <font color="green">git add namefile + git commit -m "commit message"</font>*)
 
 ## Lesson 2
 
-git branch - выводит ветки
+* **git branch** - выводит ветки
+
+* **git branch name** - Создаёт ветку с именем <font color="green">name</font>
+
