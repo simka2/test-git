@@ -27,7 +27,8 @@ git status - команда, вызыв.блок инф. по состоян. р
 
 ## Lesson 2
 
-* **git branch** - выводит ветки
+* **git branch** - команда, которая выводит ветки
 
 * **git branch name** - Создаёт ветку с именем <font color="green">name</font>
 
+* **clear** - очищает терминал.
